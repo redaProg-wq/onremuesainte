@@ -1,16 +1,78 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>{% block title %}Welcome!{% endblock %}</title>
-        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text></svg>">
-        {% block stylesheets %}
-        {% endblock %}
 
-        {% block javascripts %}
-        {% endblock %}
-    </head>
-    <body>
-        {% block body %}{% endblock %}
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}On Remue Sainté !{% endblock %}</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fasthand&family=Open+Sans:wght@500;700&family=Playfair+Display&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap" rel="stylesheet">
+
+
+
+    <!-- Feuilles de style -->
+    <link rel="stylesheet" href="{{asset('assets/style/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/style/style.css')}}">
+    {% block stylesheets %}
+
+    {% endblock %}
+
+
+
+    <!-- Feuilles de scripts JS -->
+    <script src="{{asset('assets/scripts/bootstrap.min.js')}}" defer></script>
+    <script src="{{asset('assets/scripts/script.js')}}" defer></script>
+    {% block javascripts %}
+
+    {% endblock %}
+</head>
+
+<body>
+
+
+
+    <header class="header container-fluid">
+        <h1 class="headerh1 fontdancing">
+            On Remue Sainté ! </h1>
+        <nav class="nav">
+            <a class="nav-link active fontdancing fs-1 " aria-current="page" href="/accueil.php">Accueil</a>
+            <a class="nav-link fontdancing fs-1 " href="./commissions.php">Commissions</a>
+            <a class="nav-link fontdancing fs-1 " href="./ateliers.php">Ateliers</a>
+            <a class="nav-link fontdancing fs-1 " href="#">Remue Sainté !</a>
+            <a class="nav-link fontdancing fs-1 " href="#">Blog</a>
+
+
+        </nav>
+    </header>
+    <div class="header_2 container-fluid bg-light">
+        <a class="nav-link fs-4" href="#">Inscription</a>
+        <a class="nav-link fs-4" href="#">Connexion</a>
+    </div>
+
+  
+    {% block body %}{% endblock %}
+
+    <footer class="container_fluid footer ">
+        <p class="col-3 fs-3 fontdancing">
+            Le Remue Meninges <br>
+            Café culturel & associatif
+        </p>
+        <img class="div_footer_img col-3 " src="./assets/img/logo-rm-vide-blanc.png" alt="Logo Remue Meninges">
+
+        <p class="col-3 fs-3 fontdancing">
+           43 Rue Michelet <br>
+           42000 Saint-Etienne 
+        </p>
+
+    </footer>
+</body>
+
 </html>

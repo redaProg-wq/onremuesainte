@@ -38,7 +38,8 @@
   }
   
   .header_2{
-  background-color: grey;
+   
+  background-color: white;
   display: flex;
   justify-content: space-between;
   
@@ -66,12 +67,12 @@
   
   .accueil_section_1{
   
-   margin-top: 10vh;
+   margin-top: 5vh;
    margin-bottom: 10vh;
   }
   
   .div_accueil {
-    padding-top: 10vh;
+    padding-top: 5vh;
     background-color: white;
     display: flex;
     flex-wrap: wrap;
@@ -79,7 +80,7 @@
     max-width: 80%;
   }
   .accueil h1 {
-    margin-top: 5vw;
+    margin-top: 2.5vw;
     margin-left: 5vw;
   }
   
@@ -135,13 +136,12 @@
     padding-top: 5vh;
   }
   
-  .div_accueil_2_ateliers{
-    display: flex;
-    flex-wrap: wrap;
-    
-    
-  
-   
+ 
+
+  .div_acceuil_2_h3{
+
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
   }
   
   .acceuil_section_3{
@@ -292,7 +292,8 @@
     align-items: center;
     
     
-    min-height: 800px;
+    
+
   }
   
   .commissions_titre{
@@ -311,5 +312,30 @@
     margin-bottom: 2.5vmax;
   }
   
+
+  /*
+Page et section ateliers 
+
+*/
+
+.main_ateliers {
+  
+    background: black center center/cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.container-cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+
   
   

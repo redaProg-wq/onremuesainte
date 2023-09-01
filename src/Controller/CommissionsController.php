@@ -6,14 +6,13 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
-class MainController extends AbstractController
+class CommissionsController extends AbstractController
 {
-    #[Route('/accueil.php', name: 'app_main')]
+    #[Route('/commissions.php', name: 'app_commissions')]
     public function index(): Response
     {
-        return $this->render('main/index.html.twig', [
-            'controller_name' => 'MainController',
+        return $this->render('commissions/index.html.twig', [
+            'controller_name' => 'CommissionsController',
         ]);
     }
-
 }

@@ -1,20 +1,325 @@
-{% extends 'base.html.twig' %}
-
-{% block title %}Hello MainController!{% endblock %}
-
+{% extends 'base.html.twig' %} {% block title %}On Remue Sainté !{% endblock %}
 {% block body %}
-<style>
-    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
-    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
-</style>
+<main>
+  <section class="row accueil_section_1 container-fluid">
+    <div class="container-fluid div_accueil col-10">
+      <img
+        src="./assets/img/logo_remue_jaune.jpg"
+        alt="logo remue jaune"
+        class="col-3"
+      />
 
-<div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
+      <h1 class="fontdancing col-10 fs-1">
+        Le Remue-Meninges, <br />
+        Café Lecture avec programation culturelle
+      </h1>
+    </div>
 
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code><a href="{{ 'C:/Users/rdame/OneDrive/Bureau/developpement/projets_symfony/onremuesainte/onremuesainte/src/Controller/MainController.php'|file_link(0) }}">src/Controller/MainController.php</a></code></li>
-        <li>Your template at <code><a href="{{ 'C:/Users/rdame/OneDrive/Bureau/developpement/projets_symfony/onremuesainte/onremuesainte/templates/main/index.html.twig'|file_link(0) }}">templates/main/index.html.twig</a></code></li>
-    </ul>
-</div>
+    <div class="container-fluid div_acceuil_interieur col-10">
+      <p class="container-fluid fs-5">
+        <strong>
+          Bienvenue sur la plateforme de gestion interne du Remue-Méninges, le
+          café culture associatif où les idées s'épanouissent et les projets
+          prennent vie !
+        </strong>
+        <br />
+
+        <br />
+        Notre plateforme en ligne est conçue pour favoriser l'émergence de
+        nouvelles adhésions, inspirer de nouveaux projets associatifs et
+        améliorer la communication et la gestion de nos initiatives déjà
+        existantes. <br />
+        <br />
+        À travers notre programmation culturelle riche et variée, nous offrons
+        un espace dynamique où les esprits créatifs se rencontrent, partagent et
+        collaborent. Que tu sois passioné de musique, d'art, de littérature ou
+        de toute autre forme d'expression, tu trouveras chez nous une communauté
+        vibrante et accueillante. <br />
+
+        <br />
+        En devenant membre du Remue, ou en simplement t'inscrivant dans l'onglet
+        inscriptions, tu auras accès à un espace dédié où tu pourras échanger
+        avec d'autres passionnés, proposer de nouvelles idées et participer à
+        des discussions stimulantes. Nous croyons en la force du collectif et en
+        la synergie créée par des esprits engagés. Ce site nous permettra de
+        trouver des ressources utiles pour concrétiser tes projets associatifs,
+        ses projets associatifs, donc nos projets associatifs, de connecter des
+        personnes partageant les mêmes intérêts et de bénéficier d'un
+        accompagnement personnalisé de nos bénévoles dédié.e.s. Rejoins nous dès
+        maintenant sur l'onglet inscriptions et viens toi aussi inspirer notre
+        communauté foisonnante de créativité. Ensemble, nous construirons un
+        milieu associatif Stéfanois florissant et dynamique.
+
+        <br />
+        <br />
+
+        <strong> Ensemble, nous remuerons sainté ! </strong>
+      </p>
+    </div>
+    <div class="container-fluid div_acceuil_fin col-10">
+      <figure class="snip1573">
+        <img
+          src="./assets/img/optimized-Vue_aerienne_centre_ville-Saint-Etienne_Tourisme___Congres___Valentin_Tissot_-_Frenchexploreur-85149.jpg"
+          alt="sample89"
+        />
+        <figcaption>
+          <h3>Viens Remuer Sainté !</h3>
+        </figcaption>
+        <a href="#"></a>
+      </figure>
+    </div>
+  </section>
+
+  <section class="container-fluid section_accueil_2">
+    <div class="container-fluid div_accueil_2 row">
+      <h2 class="text-center fontdancing div_acceuil_2_h2 col-4 fs-1">
+        Les Ateliers du Remue
+      </h2>
+      <p class="col-10 div_accueil_2_p fs-5">
+        Découvrez un monde de créativité et de partage au sein de notre bar
+        associatif dynamique ! <br />
+        Rejoignez-nous dans une aventure culturelle passionnante où chaque
+        moment devient une occasion de s'exprimer, d'apprendre et de se
+        connecter. <br />
+        <br />
+
+        Nos ateliers culturels sont conçus pour tous les esprits curieux et les
+        passionnés de tous âges. Que vous souhaitiez développer vos talents
+        artistiques, explorer de nouvelles formes d'expression ou simplement
+        rencontrer des personnes partageant les mêmes intérêts, notre communauté
+        accueillante vous attend ! <br />
+        <br />
+
+        Laissez libre cours à votre imagination lors de nos ateliers de lecture,
+        de découverte ou de chant. Plongez dans le monde des mots avec nos
+        séances de poésie et d'écriture créative. Les mélomanes trouveront leur
+        bonheur dans nos sessions musicales collaboratives, où les genres se
+        mélangent pour créer des harmonies uniques. <br />
+        <br />
+
+        En tant que bar associatif, nous croyons en la force de la collaboration
+        et de l'échange. En rejoignant nos ateliers, vous contribuez non
+        seulement à enrichir votre propre vie culturelle, mais aussi à soutenir
+        notre mission de favoriser la créativité et la diversité au cœur de
+        notre communauté. Que vous soyez artiste confirmé ou novice
+        enthousiaste, il y a une place pour vous parmi nous. <br />
+        Rejoignez notre équipe de bénévoles dévoués et devenez un moteur de
+        notre mouvement culturel. Ensemble, créons des expériences inoubliables
+        et cultivons des amitiés durables. <br />
+        <br />
+        Rejoignez-nous au bar associatif pour célébrer la culture sous toutes
+        ses formes! <br />
+
+        Ensemble, nous remuerons Sainté !
+      </p>
+
+      
+        <h3 class="fontdancing text-center col-4 div_acceuil_2_h3">Ecriture</h3>
+
+        <div class="container-fluid container-cards row">
+          <div class="card col-4 bg-black" style="width: 18rem">
+            <img src="./assets/img/rencontre.png" class="card-img-top" alt="..." />
+            <div class="card-body bg-black">
+              <h5 class="card-title text-white">Dimanche de Mots</h5>
+              <p class="card-text text-white">
+                Un rendez vous dominical et mensuel, ou l'on rencontre l'inconnu et ou l'inconnu nous rencontre!
+              </p>
+              <a href="#" class="btn btn-dark">Go !</a>
+            </div>
+          </div>
+
+          <div class="card col-4 bg-black" style="width: 18rem">
+            <img src="./assets/img/remue_orange.png" class="card-img-top bg-black" alt="..." />
+            <div class="card-body bg-black">
+              <h5 class="card-title text-white">Atelier d'écriture</h5>
+              <p class="card-text text-white">
+                Temps d’écriture pour tous, décidé ensemble, puis à tour de rôle, on se lit la création du jour. Pour s’entraîner ou essayer pour la première fois, ou pour les suivantes.
+              </p>
+              <a href="#" class="btn btn-dark">Go!</a>
+            </div>
+          </div>
+        </div>
+        <h3 class="fontdancing text-center col-4 div_acceuil_2_h3 fs-1">
+          Lecture
+        </h3>
+        <div class="container-fluid container-cards row">
+          <div class="card col-4" style="width: 18rem">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-dark">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card col-4" style="width: 18rem">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-dark">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <h3 class="fontdancing text-center col-4 div_acceuil_2_h3 fs-1">
+          Déssin
+        </h3>
+        <div class="container-fluid container-cards row">
+          <div class="card col-4" style="width: 18rem">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-dark">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card col-4" style="width: 18rem">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-dark">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <h3 class="fontdancing text-center col-4 div_acceuil_2_h3 fs-1">
+          Danse et Chants
+        </h3>
+        <div class="container-fluid container-cards row">
+          <div class="card col-4" style="width: 18rem">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-dark">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card col-4" style="width: 18rem">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-dark">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <h3 class="fontdancing text-center col-4 div_acceuil_2_h3 fs-1">
+          Langues
+        </h3>
+        <div class="container-fluid container-cards row">
+          <div class="card col-4" style="width: 18rem">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-dark">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card col-4" style="width: 18rem">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-dark">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <h3 class="fontdancing text-center col-4 div_acceuil_2_h3 fs-1">
+          Culture
+        </h3>
+        <div class="container-fluid container-cards row">
+          <div class="card col-4" style="width: 18rem">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-dark">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card col-4" style="width: 18rem">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-dark">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <h3 class="fontdancing text-center col-4 div_acceuil_2_h3 fs-1">
+          Science
+        </h3>
+        <div class="container-fluid container-cards row">
+          <div class="card col-4" style="width: 18rem">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-dark">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card col-4" style="width: 18rem">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-dark">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+  </section>
+
+  <section class="acceuil_section_3 container-fluid row">
+    <p class="col-10 section_3_p text-center fs-4">
+      Viens poser TA pierre au mur, rencontrer du monde, découvrir de nouvelles
+      choses toutes plus passionantes les unes que les autres. <br />
+      découvre le Remue-Méninges et viens, toi aussi, Remuer Sainté !
+    </p>
+
+    <button class="btn btn-dark col-4">Inscription</button>
+  </section>
+</main>
+
 {% endblock %}
