@@ -1,40 +1,396 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}!{% endblock %}
+{% block title %}{% endblock %}
 
 {% block body %}
-<main class="row container-fluid main_ateliers ">
+<section class="container-fluid section_accueil_2">
+  <div class="container-fluid div_accueil_2 row">
+    <h2 class="text-center fontdancing div_acceuil_2_h2 col-4 fs-1">
+      Les Ateliers du Remue
+    </h2>
+    <p class="col-10 div_accueil_2_p fs-5">
+      Découvrez un monde de créativité et de partage au sein de notre bar
+      associatif dynamique ! <br />
+      Rejoignez-nous dans une aventure culturelle passionnante où chaque
+      moment devient une occasion de s'exprimer, d'apprendre et de se
+      connecter. <br />
+      <br />
 
-    <h1 class="fontdancing   col-5"> Les Ateliers du Remue </h1>
+      Nos ateliers culturels sont conçus pour tous les esprits curieux et les
+      passionnés de tous âges. Que vous souhaitiez développer vos talents
+      artistiques, explorer de nouvelles formes d'expression ou simplement
+      rencontrer des personnes partageant les mêmes intérêts, notre communauté
+      accueillante vous attend ! <br />
+      <br />
 
-    <div class="container-fluid container-cards row">
+      Laissez libre cours à votre imagination lors de nos ateliers de lecture,
+      de découverte ou de chant. Plongez dans le monde des mots avec nos
+      séances de poésie et d'écriture créative. Les mélomanes trouveront leur
+      bonheur dans nos sessions musicales collaboratives, où les genres se
+      mélangent pour créer des harmonies uniques. <br />
+      <br />
 
-      <div class="card col-4" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-dark">Go somewhere</a>
+      En tant que bar associatif, nous croyons en la force de la collaboration
+      et de l'échange. En rejoignant nos ateliers, vous contribuez non
+      seulement à enrichir votre propre vie culturelle, mais aussi à soutenir
+      notre mission de favoriser la créativité et la diversité au cœur de
+      notre communauté. Que vous soyez artiste confirmé ou novice
+      enthousiaste, il y a une place pour vous parmi nous. <br />
+      Rejoignez notre équipe de bénévoles dévoués et devenez un moteur de
+      notre mouvement culturel. Ensemble, créons des expériences inoubliables
+      et cultivons des amitiés durables. <br />
+      <br />
+      Rejoignez-nous au bar associatif pour célébrer la culture sous toutes
+      ses formes! <br />
+
+      Ensemble, nous remuerons Sainté !
+    </p>
+
+    <h3 class="fontdancing text-center col-4 div_acceuil_2_h3">Ecriture</h3>
+
+    <div class="container-fluid container-cards row mt-5">
+      <div class="card col-4 bg-black" style="width: 18rem">
+        <img
+          src="./assets/img/rencontre.png"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body bg-black">
+          <h5 class="card-title text-white">Dimanche de Mots</h5>
+          <p class="card-text text-white">
+            Un rendez vous dominical et mensuel, ou l'on rencontre l'inconnu
+            et ou l'inconnu nous rencontre!
+          </p>
+          <a href="#" class="btn btn-dark">Go !</a>
         </div>
       </div>
 
-      <div class="card col-4" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-dark">Go somewhere</a>
+      <div class="card col-4 bg-black" style="width: 18rem">
+        <img
+          src="./assets/img/remue_orange.png"
+          class="card-img-top bg-black"
+          alt="..."
+        />
+        <div class="card-body bg-black">
+          <h5 class="card-title text-white">Atelier d'écriture</h5>
+          <p class="card-text text-white">
+            Temps d’écriture pour tous, décidé ensemble, puis à tour de rôle,
+            on se lit la création du jour. Pour s’entraîner ou essayer pour la
+            première fois, ou pour les suivantes.
+          </p>
+          <a href="#" class="btn btn-dark">Go!</a>
+        </div>
+      </div>
+    </div>
+    <h3 class="fontdancing text-center col-4 div_acceuil_2_h3 fs-1">
+      Lecture
+    </h3>
+    <div class="container-fluid container-cards row mt-5">
+      <div class="card col-4 bg-black" style="width: 18rem">
+        <img
+          src="./assets/img/troc_lectures.jpeg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body bg-black">
+          <h5 class="card-title text-white">Troc Lecture</h5>
+          <p class="card-text text-white">
+            On y présente un bouquin qu’on a lu, on en lit un ou deux
+            passages, on réagit sur tel ou tel aspect, on dit pourquoi on l’a
+            apprécié ou pas, on en discute. En fin de séance, on se prête
+            éventuellement les bouquins jusqu’à la prochaine séance. On ne
+            s’interdit aucun genre roman, poésie, essai, théâtre…
+          </p>
+          <a href="#" class="btn btn-dark">Go!</a>
         </div>
       </div>
 
+      <div class="card col-4 bg-black" style="width: 18rem">
+        <img
+          src="./assets/img/cafe_contes.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body bg-black">
+          <h5 class="card-title text-white">café contes</h5>
+          <p class="card-text text-white">
+            Une scène ouverte où chacun.e est invité.e à raconter, écouter.
+            <br />
 
-
-
+            L’occasion de préparer ses histoires avant les sorties
+            officielles, ou bien juste pour le plaisir de raconter aux autres,
+            même pour la première fois.
+          </p>
+          <a href="#" class="btn btn-dark">Go!</a>
+        </div>
+      </div>
     </div>
 
+    <div class="container-fluid container-cards row mt-5">
+      <div class="card col-4 bg-black" style="width: 18rem">
+        <img
+          src="./assets/img/feminisme.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body bg-black">
+          <h5 class="card-title text-white">Groupe de lectures féministes</h5>
+          <p class="card-text text-white">
+            Venez avec un livre de votre choix (théorie ou fiction) traitant
+            du rapport au genre d’une façon qui vous intéresse pour en
+            discuter et/ou lire un extrait. Vous pouvez aussi venir sans rien,
+            juste pour voir. Invitations d’auteur.ices, arpentages,
+            expositions et séances de cinéma seront organisées.
+          </p>
+          <a href="#" class="btn btn-dark">Go!</a>
+        </div>
+      </div>
+    </div>
+    <h3 class="fontdancing text-center col-4 div_acceuil_2_h3 fs-1">
+      Déssin
+    </h3>
+    <div class="container-fluid container-cards row mt-5">
+      <div class="card col-4 bg-black" style="width: 18rem">
+        <img src="./assets/img/drink.png" class="card-img-top" alt="..." />
+        <div class="card-body bg-black">
+          <h5 class="card-title text-white">Drink & Draw</h5>
+          <p class="card-text text-white">
+            Dessinateur professionnel, amateur ou totalement novice, tout le
+            monde est bienvenu à Drink & Draw ! La règle est simple, on vient
+            avec son crayon fétiche, son papier favori, et on se réunit pour
+            boire un verre et dessiner sans prise de tête autour de thèmes
+            prédéfinis. Alors, venez dessiner avec nous et buvons un verre
+            ensemble !
+          </p>
+          <a href="#" class="btn btn-dark">Go!</a>
+        </div>
+      </div>
+    </div>
+    <h3 class="fontdancing text-center col-4 div_acceuil_2_h3 fs-1">
+      Danse et Chants
+    </h3>
+    <div class="container-fluid container-cards row mt-5">
+      <div class="card col-4 bg-black" style="width: 18rem">
+        <img src="./assets/img/corala.jpg" class="card-img-top" alt="..." />
+        <div class="card-body bg-black">
+          <h5 class="card-title text-white">Corala Rebela</h5>
+          <p class="card-text text-white">
+            Parce qu’on aime chanter avec du sens, la réécriture est
+            indissociable des répétitions de cette chorale-atelier ouverte à
+            tou.te.s. On y découvre les langues indigènes des un.e.s et des
+            autres (occitan, catalan, créole…) : venez avec la vôtre ! Pas de
+            chef.f.e de cœur, aucun niveau musical requis.
+          </p>
+          <a href="#" class="btn btn-dark">Go!</a>
+        </div>
+      </div>
 
+      <div class="card col-4 bg-black" style="width: 18rem">
+        <img src="./assets/img/trad.jpg" class="card-img-top" alt="..." />
+        <div class="card-body bg-black">
+          <h5 class="card-title text-white">Mardi Folk</h5>
+          <p class="card-text text-white">
+            Bourrée trois temps, kost ar c’hoad, polska… Qu’es aquò? Venez
+            donc découvrir les danses des 4 coins de France et du continent.
+            Que vous soyez tombé.e d’dans quand vous étiez petit.e ou que vous
+            n’y connaissiez pas un brin, n’hésitez pas à venir partager avec
+            nous l’énergie du bal trad’ !
+          </p>
+          <a href="#" class="btn btn-dark">Go!</a>
+        </div>
+      </div>
+    </div>
+    <h3 class="fontdancing text-center col-4 div_acceuil_2_h3 fs-1">
+      Langues
+    </h3>
+    <div class="container-fluid container-cards row">
+      <div class="card col-4 bg-black" style="width: 18rem">
+        <img
+          src="./assets/img/cafe_langues.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-bod bg-black">
+          <h5 class="card-title text-white">Café des langues</h5>
+          <p class="card-text text-white">
+            Bienvenidos tutti li students ! Le principe est simple : une
+            table, une langue. Ce rendez-vous rassemble des étudiants de tous
+            les pays. Une belle occasion de pratiquer le français et/ou des
+            langues étrangères, mais surtout de faire de nouvelles rencontres
+            autour d’un verre et de jeux !
+          </p>
+          <a href="#" class="btn btn-dark">Go!</a>
+        </div>
+      </div>
 
+      <div class="card col-4 bg-black" style="width: 18rem">
+        <img src="./assets/img/bouche.jpg" class="card-img-top" alt="..." />
+        <div class="card-body bg-black">
+          <h5 class="card-title text-white">Bouches à Oreilles</h5>
+          <p class="card-text text-white">
+            Des ateliers de conversation en français, pour échanger et
+            apprendre, rencontrer de nouvelles personnes et partager ses
+            expériences, en toute convivialité. Attention, ce ne sont pas des
+            cours de français mais des ateliers de pratique de la langue.
+          </p>
+          <a href="#" class="btn btn-dark">Go!</a>
+        </div>
+      </div>
+    </div>
 
-  </main>
+    <div class="container-fluid container-cards row mt-5">
+      <div class="card col-4 bg-black" style="width: 18rem">
+        <img src="./assets/img/gag.jpg" class="card-img-top" alt="..." />
+        <div class="card-body bg-black">
+          <h5 class="card-title text-white">Gag'arpitan</h5>
+          <p class="card-text text-white">
+            Rencontre autour de deux langues régionales : l’Arpitan ou le
+            francoprovençal (1er et 3ème mercredis du mois) et l’Occitan (2ème
+            et 4ème mercredis du mois). Ces temps permettent d’exercer ces
+            langues, d’en connaître la culture, le patrimoine, et les
+            événements qui y sont rattachés.
+          </p>
+          <a href="#" class="btn btn-dark">Go!</a>
+        </div>
+      </div>
+      <div class="card col-4 bg-black" style="width: 18rem">
+        <img src="./assets/img/signe.jpg" class="card-img-top" alt="..." />
+        <div class="card-body bg-black">
+          <h5 class="card-title text-white">Café Signes</h5>
+          <p class="card-text text-white">
+            Un moment dédié à la langue des signes avec des personnes sourdes,
+            malentendantes ou entendantes, sachant signer ou en apprentissage.
+            L’occasion de se rencontrer, et pour certains d’approfondir leurs
+            connaissances de la Langue des Signes Française.
+          </p>
+          <a href="#" class="btn btn-dark">Go!</a>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="fontdancing text-center col-4 div_acceuil_2_h3 fs-1">
+      Culture
+    </h3>
+    <div class="container-fluid container-cards row mt-5">
+      <div class="card col-4 bg-black" style="width: 18rem">
+        <img
+          src="./assets/img/tricochet.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body bg-black">
+          <h5 class="card-title text-white">Atelier Tricochet</h5>
+          <p class="card-text text-white">
+            Ce nouvel atelier met la pratique du fil (tricot, crochet,
+            broderie, etc.) à l’honneur. Il s’agit de crocheter / tricoter,
+            d’apprendre et de créer ensemble, tout en discutant autour d’une
+            boisson chaude (ou froide).
+          </p>
+          <a href="#" class="btn btn-dark">Go!</a>
+        </div>
+      </div>
+
+      <div class="card col-4 bg-black" style="width: 18rem">
+        <img src="./assets/img/singa.jpg" class="card-img-top" alt="..." />
+        <div class="card-body bg-black">
+          <h5 class="card-title text-white">Atelier théatre avec Singa</h5>
+          <p class="card-text text-white">
+            L’atelier théâtre de SINGA, animé par Hervé Agnoux, permet de se
+            familiariser avec le français, et savoir intuitivement former des
+            phrases avec les mots que l’on connaît. Il s’appuie sur de petites
+            saynètes de la vie quotidienne, à partir desquelles participantes
+            et participants improvisent.
+          </p>
+          <a href="#" class="btn btn-dark">Go!</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid container-cards row mt-5">
+      <div class="card col-4 bg-black" style="width: 18rem">
+        <img src="./assets/img/deux.jpg" class="card-img-top" alt="..." />
+        <div class="card-body bg-black">
+          <h5 class="card-title text-white">Dix manches, deux pioches</h5>
+          <p class="card-text text-white">
+            Marre des dimanches ennuyeux ? Alors si ça te branche, amène tes
+            jeux et viens partager un après-midi rempli de cartes, de dés et
+            de plateaux en tous genres ! Goûter partagé : apporte ton gâteau,
+            et tu gagnes en cas d’ex-aequo !
+          </p>
+          <a href="#" class="btn btn-dark">Go!</a>
+        </div>
+      </div>
+
+      <div class="card col-4 bg-black" style="width: 18rem">
+        <img
+          src="./assets/img/causeries.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body bg-black">
+          <h5 class="card-title text-white">Les causeries libertaires</h5>
+          <p class="card-text text-white">
+            En nous appuyant sur les théories politiques anarchistes, nous
+            souhaitons traiter de l’anarchie comme théorie de l’organisation
+            sociale. Il s’agit d’une part de présenter les principes étayés
+            par des expériences historiques (Mexique, Ukraine, Espagne,
+            Chiapas, Rojava…), et d’autre part, d’identifier et de comprendre
+            quels types d’actions engager au quotidien, comment les mettre en
+            place dans une logique fédéraliste et de gestion directe.
+          </p>
+          <a href="#" class="btn btn-dark">Go!</a>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid container-cards row mt-5">
+      <div class="card col-4 bg-black" style="width: 18rem">
+        <img src="./assets/img/trad.jpg" class="card-img-top" alt="..." />
+        <div class="card-body bg-black">
+          <h5 class="card-title text-white">Cultrure & Histoire LGBTI</h5>
+          <p class="card-text text-white">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-dark">Go!</a>
+        </div>
+      </div>
+    </div>
+    <h3 class="fontdancing text-center col-4 div_acceuil_2_h3 fs-1">
+      Science
+    </h3>
+    <div class="container-fluid container-cards row mt-5 mb-5">
+      <div class="card col-4 bg-black" style="width: 18rem">
+        <img src="./assets/img/obso.jpg" class="card-img-top" alt="..." />
+        <div class="card-body bg-black">
+          <h5 class="card-title text-white">Obsolessence Déprogramée</h5>
+          <p class="card-text text-white">
+            Entraide autour de la réparation d’objets divers : informatique,
+            électroménager, jouet, machine à coudre, matériel son et vidéo,
+            etc. Pour répondre à la baisse constante de notre autonomie face
+            aux problèmes rencontrés avec les objets qui nous entourent.
+            Aucune compétence n’est requise…
+          </p>
+          <a href="#" class="btn btn-dark">Go!</a>
+        </div>
+      </div>
+
+      <div class="card col-4 bg-black" style="width: 18rem">
+        <img src="./assets/img/science.jpg" class="card-img-top" alt="..." />
+        <div class="card-body bg-black">
+          <h5 class="card-title text-white">
+            Animations scientifico-ludiques
+          </h5>
+          <p class="card-text text-white">
+            Un mercredi par mois, des bénévoles du Remue-Méninges, en
+            partenariat avec l’association Les Petits Débrouillards, proposent
+            à titre gratuit 2 animations scientifico-ludiques facilement
+            reproductibles avec des objets du quotidien. À partir de six ans.
+          </p>
+          <a href="#" class="btn btn-dark">Go!</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 {% endblock %}
