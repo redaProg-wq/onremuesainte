@@ -1,6 +1,6 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}{% endblock %}
+{% block title %}On remue Sainté!{% endblock %}
 
 {% block body %}
 <section class="container-fluid section_accueil_2">
@@ -61,7 +61,7 @@
             Un rendez vous dominical et mensuel, ou l'on rencontre l'inconnu
             et ou l'inconnu nous rencontre!
           </p>
-          <a href="#" class="btn btn-dark">Go !</a>
+          <a href={{ url ('app_ateliers_dimanchedemots') }} class="btn btn-dark">Go !</a>
         </div>
       </div>
 
@@ -78,7 +78,7 @@
             on se lit la création du jour. Pour s’entraîner ou essayer pour la
             première fois, ou pour les suivantes.
           </p>
-          <a href="#" class="btn btn-dark">Go!</a>
+          <a href={{url ('app_ateliers_ateliersdecriture')}} class="btn btn-dark">Go!</a>
         </div>
       </div>
     </div>
@@ -101,7 +101,7 @@
             éventuellement les bouquins jusqu’à la prochaine séance. On ne
             s’interdit aucun genre roman, poésie, essai, théâtre…
           </p>
-          <a href="#" class="btn btn-dark">Go!</a>
+          <a href={{ url ('app_ateliers_troclecture')}} class="btn btn-dark">Go!</a>
         </div>
       </div>
 
@@ -121,7 +121,7 @@
             officielles, ou bien juste pour le plaisir de raconter aux autres,
             même pour la première fois.
           </p>
-          <a href="#" class="btn btn-dark">Go!</a>
+          <a href={{url ('app_ateliers_cafecontes')}} class="btn btn-dark">Go!</a>
         </div>
       </div>
     </div>
@@ -142,7 +142,7 @@
             juste pour voir. Invitations d’auteur.ices, arpentages,
             expositions et séances de cinéma seront organisées.
           </p>
-          <a href="#" class="btn btn-dark">Go!</a>
+          <a href={{ url ('app_ateliers_lecturesfeministes') }} class="btn btn-dark">Go!</a>
         </div>
       </div>
     </div>
@@ -162,7 +162,7 @@
             prédéfinis. Alors, venez dessiner avec nous et buvons un verre
             ensemble !
           </p>
-          <a href="#" class="btn btn-dark">Go!</a>
+          <a href={{ url ('app_ateliers_drinkanddraw') }} class="btn btn-dark">Go!</a>
         </div>
       </div>
     </div>
@@ -181,7 +181,7 @@
             autres (occitan, catalan, créole…) : venez avec la vôtre ! Pas de
             chef.f.e de cœur, aucun niveau musical requis.
           </p>
-          <a href="#" class="btn btn-dark">Go!</a>
+          <a href={{ url ('app_ateliers_coralarebela') }} class="btn btn-dark">Go!</a>
         </div>
       </div>
 
@@ -196,7 +196,7 @@
             n’y connaissiez pas un brin, n’hésitez pas à venir partager avec
             nous l’énergie du bal trad’ !
           </p>
-          <a href="#" class="btn btn-dark">Go!</a>
+          <a href={{ url ('app_ateliers_mardifolk') }} class="btn btn-dark">Go!</a>
         </div>
       </div>
     </div>
@@ -219,7 +219,7 @@
             langues étrangères, mais surtout de faire de nouvelles rencontres
             autour d’un verre et de jeux !
           </p>
-          <a href="#" class="btn btn-dark">Go!</a>
+          <a href={{ url ('app_ateliers_cafedeslangues') }} class="btn btn-dark">Go!</a>
         </div>
       </div>
 
@@ -233,7 +233,7 @@
             expériences, en toute convivialité. Attention, ce ne sont pas des
             cours de français mais des ateliers de pratique de la langue.
           </p>
-          <a href="#" class="btn btn-dark">Go!</a>
+          <a href={{ url ('app_ateliers_bouchesaoreilles') }} class="btn btn-dark">Go!</a>
         </div>
       </div>
     </div>
@@ -250,7 +250,7 @@
             langues, d’en connaître la culture, le patrimoine, et les
             événements qui y sont rattachés.
           </p>
-          <a href="#" class="btn btn-dark">Go!</a>
+          <a href={{ url ('app_ateliers_gagarpitan') }} class="btn btn-dark">Go!</a>
         </div>
       </div>
       <div class="card col-4 bg-black" style="width: 18rem">
@@ -263,7 +263,7 @@
             L’occasion de se rencontrer, et pour certains d’approfondir leurs
             connaissances de la Langue des Signes Française.
           </p>
-          <a href="#" class="btn btn-dark">Go!</a>
+          <a href={{ url ('app_ateliers_cafesignes') }} class="btn btn-dark">Go!</a>
         </div>
       </div>
     </div>
@@ -286,7 +286,7 @@
             d’apprendre et de créer ensemble, tout en discutant autour d’une
             boisson chaude (ou froide).
           </p>
-          <a href="#" class="btn btn-dark">Go!</a>
+          <a href={{ url ('app_ateliers_ateliertricrochet') }} class="btn btn-dark">Go!</a>
         </div>
       </div>
 
@@ -301,7 +301,7 @@
             saynètes de la vie quotidienne, à partir desquelles participantes
             et participants improvisent.
           </p>
-          <a href="#" class="btn btn-dark">Go!</a>
+          <a href={{ url ('app_ateliers_theatresinga') }} class="btn btn-dark">Go!</a>
         </div>
       </div>
     </div>
@@ -317,7 +317,7 @@
             de plateaux en tous genres ! Goûter partagé : apporte ton gâteau,
             et tu gagnes en cas d’ex-aequo !
           </p>
-          <a href="#" class="btn btn-dark">Go!</a>
+          <a href={{ url ('app_ateliers_dixmanchesdeuxpioches') }} class="btn btn-dark">Go!</a>
         </div>
       </div>
 
@@ -338,7 +338,7 @@
             quels types d’actions engager au quotidien, comment les mettre en
             place dans une logique fédéraliste et de gestion directe.
           </p>
-          <a href="#" class="btn btn-dark">Go!</a>
+          <a href={{ url ('app_ateliers_causerieslibertaires') }} class="btn btn-dark">Go!</a>
         </div>
       </div>
     </div>
@@ -346,12 +346,12 @@
       <div class="card col-4 bg-black" style="width: 18rem">
         <img src="./assets/img/trad.jpg" class="card-img-top" alt="..." />
         <div class="card-body bg-black">
-          <h5 class="card-title text-white">Cultrure & Histoire LGBTI</h5>
+          <h5 class="card-title text-white">Le point Queer</h5>
           <p class="card-text text-white">
             Some quick example text to build on the card title and make up the
             bulk of the card's content.
           </p>
-          <a href="#" class="btn btn-dark">Go!</a>
+          <a href={{ url ('app_ateliers_lepointqueer') }} class="btn btn-dark">Go!</a>
         </div>
       </div>
     </div>
@@ -370,7 +370,7 @@
             aux problèmes rencontrés avec les objets qui nous entourent.
             Aucune compétence n’est requise…
           </p>
-          <a href="#" class="btn btn-dark">Go!</a>
+          <a href={{ url ('app_ateliers_obsolescencedeprogramee') }} class="btn btn-dark">Go!</a>
         </div>
       </div>
 
@@ -386,7 +386,7 @@
             à titre gratuit 2 animations scientifico-ludiques facilement
             reproductibles avec des objets du quotidien. À partir de six ans.
           </p>
-          <a href="#" class="btn btn-dark">Go!</a>
+          <a href={{ url ('app_ateliers_scientificoludique') }} class="btn btn-dark">Go!</a>
         </div>
       </div>
     </div>

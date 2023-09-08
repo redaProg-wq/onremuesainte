@@ -44,6 +44,10 @@
   justify-content: space-between;
   
   }
+
+  .header_2 a:hover{
+    color: burlywood;
+  }
   
   /* Footer */
   
@@ -51,8 +55,9 @@
     color: white;
     background-color: black;
     display: flex;
-    align-items: center;
-    justify-content:center;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
     max-width: 100%;
    
    
@@ -344,6 +349,42 @@ Page et section ateliers
 
 }
 
+/*
 
+Page et section galerie
+
+*/
   
+
+
+
+
+
+
+
+
+
+
+/*
+
+Page et section On remue
+
+*/
+
+
+
+
+
+/* Page on remue */
+.container_onremue {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
   

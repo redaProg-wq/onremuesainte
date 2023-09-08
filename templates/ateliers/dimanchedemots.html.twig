@@ -1,0 +1,106 @@
+{% extends 'base.html.twig' %} {% block title %}On remue Sainté!{% endblock %}
+{% block body %}
+
+<main>
+  <h1 class="text-center sf-1 fontdancing mt-3">Atelier Dimanche de mots</h1>
+
+  <div class="container-fluid row">
+    <div class="container-fluid col-10">
+      <p class="sf-4 p_dimanche de mots mt-3">
+        Rendez-vous mensuel proposé par Jeff et Sophie, Le Dimanche de mots est
+        un carrefour du dimanche. L'objectif de cet atelier, qui était, à
+        l'origine, de permettre une rencontre autour de la poésie et des lettres
+        un dimanche par mois, a tres vite été dépassé, sans jamais etre atteint.
+        <br /> <br>
+
+        En effet, l'atelier dimanche de mots est devenu un point de rencontre
+        aléatoire et épisodique entre personnes qui ne s'attendaient pas à etre
+        la. Souvent des personnes cherchant un lieu public ouvert le dimanche
+        s'y sont retrouvés y ont échangé, sur des sujets variés et infinis. Cet
+        atelier a vu passer des vies, des visteurs, des gens perdus, ou des gens
+        qui s'y sont retrouvés, et cette population hétéogène s'est rencontré et
+        a échangé.. autour d'un dimanche de mots. Si jamais l'envie vous en
+        prend, de découvrir un dimanche de mots, ou d'avoir plus d'informations
+        sur cet atelier, contactez Jeff, il se fera un plaisir d'écxhanger avec
+        vous sur ce sujet.
+      </p>
+
+      <div class="card col-12 align-self-center">
+        <img src={{
+          absolute_url(asset("assets/img/flamant.jpg"))
+        }}
+        class="card-img" alt="...">
+        <div class="card-img-overlay"></div>
+      </div>
+    </div>
+
+    <div class="container-fluid col-10 d-flex flex-row border border-dark rounded mt-5 mb-5"> 
+      <div class="col-5 d-flex flex-column div_btn_dimanche">
+        <button class="btn btn-dark align-self-center mt-5">
+          Contacter l'admin pour infos
+        </button>
+        <button class="btn btn-dark align-self-center mt-2 mb-4">
+          S'abonner aux infos de l'atelier
+        </button>
+
+        <p class="mt-2 mb-2 align-self-center">Réservé admin :</p>
+        <button class="btn btn-dark align-self-center mt-2">
+          Envoyer un mail aux abonnés
+        </button>
+        <button class="btn btn-dark align-self-center mt-2 mb-4">
+          Ajouter un point info
+        </button>
+      </div>
+
+      <div class=" col-6">
+        <h2 class="fontdancing text-center mt-5">Point Infos de l'atelier</h2>
+
+       
+      </div>
+    </div>
+
+
+    <h2 class="fontdancing text-center mt-5">Galerie Photos de l'atelier :</h2>
+    <div class="container-fluid col-10 d-flex flex-row flex-wrap border border-dark rounded mt-5 mb-5"> 
+    
+      
+      <div class="card m-2" style="width: 18rem;">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="card m-2" style="width: 18rem;">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="card m-2" style="width: 18rem;">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="card m-2" style="width: 18rem;">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="card m-2" style="width: 18rem;">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="card m-2" style="width: 18rem;">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      
+    </div>
+</main>
+{% endblock %}
